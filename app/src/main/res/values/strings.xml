@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Calculate Your Mortgage</string>
+    <string name="calc_btn">Calculate</string>
+    <string name="interest_rate_value">Interest Rate (%)</string>
+    <string name="principal_amount_value">Principal Loan Amount</string>
+    <string name="num_months_value">Number of Months</string>
+</resources>
