@@ -51,9 +51,9 @@ public class calculateMortgage extends AppCompatActivity {
     public void mortgageVal(View view){
 
         //convert the string values inputted by user to double values
-        double principal_amount = Integer.parseInt(principal_loan_amount.getText().toString());
-        double interest_amount = Integer.parseInt(interest_rate.getText().toString());
-        double total_num_payments = Integer.parseInt(num_months.getText().toString());
+        double principal_amount = Double.parseDouble(principal_loan_amount.getText().toString());
+        double interest_amount = Double.parseDouble(interest_rate.getText().toString());
+        double total_num_payments = Double.parseDouble(num_months.getText().toString());
 
         //Calculated the monthly mortgage in different parts and display in decimal
         double monthly_interest_amount =(interest_amount / (100.00 * 12.00));
